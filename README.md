@@ -1,6 +1,6 @@
 # TypeScript declare in Playwright Test MWE
 
-Goal: Declare the TypeScript type of a class's field without defining the field in JS. The JS define overwrites any field set in `super()` with `undefined`, breaking libraries like [Sequelize](https://sequelize.org/docs/v6/core-concepts/model-basics/#caveat-with-public-class-fields)).
+Goal: Declare the TypeScript type of a class's field without defining the field in JS. (The JS define overwrites any field set in `super()` with `undefined`, breaking libraries like [Sequelize](https://sequelize.org/docs/v6/core-concepts/model-basics/#caveat-with-public-class-fields)).
 
 See [TypeScript docs](https://www.typescriptlang.org/docs/handbook/2/classes.html#type-only-field-declarations).
 
