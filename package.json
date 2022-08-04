@@ -1,0 +1,15 @@
+{
+  "name": "playwright-test-mwes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "playwright test tests/example.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.24.2"
+  }
+}
