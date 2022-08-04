@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // Either of the next two options should prevent unintended_define's error
+    "target": "es2020",
+    "useDefineForClassFields": false,
+    
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "es2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+  }
+}

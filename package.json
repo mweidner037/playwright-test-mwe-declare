@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "example": "playwright test tests/example.spec.ts"
+    "declare_fields": "playwright test tests/declare_fields.test.ts",
+    "unintended_define": "playwright test tests/unintended_define.test.ts",
+    "ts-node": "ts-node tests/ts-node.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.24.2"
+    "@playwright/test": "^1.24.2",
+    "ts-node": "^10.9.1"
   }
 }
